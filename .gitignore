@@ -1,0 +1,17 @@
+# 本机生成的私人角色，默认不公开
+/ip-packs/
+/private/
+/work/
+/outputs/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
