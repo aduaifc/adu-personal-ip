@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ahe",
+  "displayName": "阿禾",
+  "status": "ready",
+  "inputKind": "text",
+  "style": "柔和哑光立体插画；二维 PNG",
+  "license": "CC0-1.0; see ../../ASSETS.md",
+  "approval": {
+    "status": "delegated",
+    "note": "仓库作者委托助手按经验完成 Skill 及虚构示例试跑；此为助手检查后的示例，不是用户看图确认的个人 IP 定稿。"
+  },
+  "lockedFeatures": [
+    "约三十岁的虚构成年女性；温和闭嘴表情和略圆的长方脸",
+    "深棕色下巴长度波浪短发；角色右额侧扫卷发",
+    "锈橙色圆框透明镜片眼镜",
+    "青绿色无翻领拉链夹克；角色左胸一处竖拉链口袋；下方两侧斜插袋",
+    "象牙白直筒长裤；深棕色系带低帮鞋与奶油色鞋底",
+    "柔和哑光立体插画、约五点五头身；无首饰、手表、Logo 或手持道具"
+  ],
+  "assets": {
+    "front": "images/front.png",
+    "turnaround": "images/turnaround.png",
+    "cutout": "images/cutout.png"
+  },
+  "characterSpec": "character-spec.md",
+  "generationLog": "generation-log.json",
+  "review": "review.md"
+}

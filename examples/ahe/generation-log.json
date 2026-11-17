@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-17",
+  "inputDescription": "虚构成年女性文字角色；无真人照片或外部人物参考；正面预览后的两张使用本示例正面图。",
+  "steps": [
+    {
+      "id": "front-preview",
+      "tool": "image_gen",
+      "model": "not-reported",
+      "intent": "generate",
+      "prompt": "Use case: stylized-concept. Asset: original fictional adult educator mascot for a public GitHub personal-IP skill worked example. Generate ONE front-facing FULL-BODY character on a plain warm white background, complete hair and shoes with generous margins. Character name Ahe (do not render any text). A friendly adult woman around 30, slightly wavy dark-brown bob ending at the jaw with ONE curved forelock on her own right forehead, warm medium-light skin, rust-orange round eyeglass frames with clear lenses and visible eyes, softly rounded rectangular face. Wear a muted teal collarless zip-up jacket with exactly ONE small vertical zip pocket on HER OWN LEFT chest, ivory straight trousers, and dark-brown minimalist low-top sneakers with cream soles. No watch, no bracelets, no handbag, no earrings, no logos. Neutral standing, arms naturally down and slightly separated from torso, both feet on same baseline. Sophisticated soft 3D-look matte illustration, clean rounded solid forms, adult 5.5-head-tall proportions, restrained shading, readable at thumbnail size. Front view must be truly straight-on and symmetric in stance. Neutral kind closed-mouth expression. No objects, no captions, no watermarks, no extra people or alternate views. This is a new fictional character, no real-person photo or existing character references.",
+      "references": [],
+      "output": "images/front.png",
+      "result": "succeeded"
+    },
+    {
+      "id": "turnaround",
+      "tool": "image_gen",
+      "model": "not-reported",
+      "intent": "identity-preserve",
+      "prompt": "Use case: identity-preserve. Use the attached image as the actual reference for ONE SAME fictional adult female character Ahe. Create a clean horizontal character-turnaround sheet with exactly THREE complete full-body views arranged left to right: straight FRONT, strict LEFT-SIDE PROFILE with the face pointing to the RIGHT of the canvas, and straight BACK. All three are THE SAME woman: wavy chin-length dark-brown bob with swept forelock, rust-orange round glasses, muted teal collarless zip jacket, exactly one vertical zipper chest pocket on HER OWN LEFT chest, two lower welt pockets as in the reference, ivory straight trousers and dark-brown low-top lace sneakers with cream soles. No watches, jewelry, props or logos. Keep age, head size, 5.5-head body proportions, hair silhouette, face, clothes cut/colors, closed-mouth calm expression and matte soft-3D illustration identical to the reference. Complete head and shoes for each view; same height and aligned top and baseline, natural neutral standing arms down, generous spacing so arms never merge between views. Middle must show a SINGLE-SIDE face outline and aligned profile feet, NOT a three-quarter view; the back must not show front face, front zipper or chest pockets. Fill unseen back with simple uninterrupted jacket matching its front, normal back trouser seam, no invented decoration. Plain warm white background. No text, no labels, no collage elements, no bonus fourth view. This sheet is a 2D illustration, not a 3D model.",
+      "references": [
+        "images/front.png"
+      ],
+      "output": "images/turnaround.png",
+      "result": "succeeded"
+    },
+    {
+      "id": "transparent-cutout",
+      "tool": "image_gen",
+      "model": "not-reported",
+      "intent": "identity-preserve/background-extraction",
+      "prompt": "Use case: identity-preserve and background-extraction. Edit the actual attached character image into ONE standalone full-body transparent-background PNG. Keep exactly the SAME Ahe woman and pose, chin-length wavy dark-brown bob and swept forelock, rust-orange round clear glasses, muted teal collarless zipped jacket with one vertical chest zip pocket on HER OWN LEFT chest and two lower welt pockets, ivory straight trousers, dark-brown lace sneakers with cream soles. Preserve face shape, apparent age, expression, proportions, garment structure, colors and all full-body framing. CHANGE ONLY the background to true transparent alpha outside the character silhouette; remove all floor and contact/drop shadows. Do not draw a checkerboard, white rectangle, glow or sticker outline. Keep hair wisps, clear glasses lenses and full shoes natural. No extra accessories, text or objects. Generous transparent margin around hair, arms and feet.",
+      "references": [
+        "images/front.png"
+      ],
+      "output": "images/cutout.png",
+      "result": "succeeded"
+    }
+  ]
+}
