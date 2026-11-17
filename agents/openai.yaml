@@ -1,0 +1,4 @@
+interface:
+  display_name: "阿杜个人 IP 形象创建"
+  short_description: "从照片或文字创建个人 IP，交付三视图、透明人物图和可复用角色设定"
+  default_prompt: "使用 $adu-personal-ip，根据我的照片或描述创建个人 IP，先确定形象，再交付角色包。"
