@@ -22,7 +22,7 @@
 
 ## 安装
 
-仓库：[duzhitao523-byte/adu-personal-ip](https://github.com/duzhitao523-byte/adu-personal-ip)。
+仓库：[aduaifc/adu-personal-ip](https://github.com/aduaifc/adu-personal-ip)。
 
 下载仓库 ZIP 并解压，**把这个包含 SKILL.md 的文件夹安装为 `adu-personal-ip`**。不要只复制 README。
 
